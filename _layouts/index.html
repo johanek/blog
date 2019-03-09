@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="content">
+  {% include pagination-newer.html %}
+
+  {{ content }}
+
+  {% for post in paginator.posts %}
+  <article class="post-body">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    {% include post-meta.html post=post %}
+
+    {{ post.content }}
+
+  </article>
+  {% endfor %}
+
+  {% include pagination-older.html %}
+</div>
