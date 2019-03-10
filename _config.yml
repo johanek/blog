@@ -16,7 +16,7 @@
 title: find a way
 email: findaway@fastmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My occasional conference notes and work thoughts
+  My conference notes and occasional work thoughts
 baseurl: /sysadmin
 url: http://johan.org.uk
 twitter_username: johaneku
